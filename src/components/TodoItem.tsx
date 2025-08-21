@@ -24,7 +24,7 @@ function TodoItem({ todo, onToggle, onDelete }: Props) {
         border: "1px solid #ddd",
         borderRadius: "4px",
         marginBottom: "8px",
-        backgroundColor: todo.completed ? "#f0f8f0" : "#fff",
+        backgroundColor: todo.completed ? "#f0f1f8ff" : "#fff",
       }}
     >
       <input

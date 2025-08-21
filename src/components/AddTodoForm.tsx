@@ -46,7 +46,7 @@ function AddTodoForm({ onAdd }: Props) {
           style={{
             flex: 1,
             padding: "8px",
-            border: error ? "2px solid #ff4444" : "1px solid #ddd",
+            border: error ? "2px solid #8b2e2eff" : "1px solid #ddd",
             borderRadius: "4px",
           }}
           aria-label="New todo input"
@@ -68,7 +68,7 @@ function AddTodoForm({ onAdd }: Props) {
       {error && (
         <div
           style={{
-            color: "#ff4444",
+            color: "#6e2020ff",
             fontSize: "14px",
             marginTop: "4px",
           }}
