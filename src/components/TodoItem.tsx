@@ -46,7 +46,7 @@ function TodoItem({ todo, onToggle, onDelete }: Props) {
       <button
         onClick={handleDelete}
         style={{
-          backgroundColor: "#ff4444",
+          backgroundColor: "#a67b7bff",
           color: "white",
           border: "none",
           borderRadius: "4px",
