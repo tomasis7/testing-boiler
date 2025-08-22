@@ -197,7 +197,7 @@ describe("AddTodoForm", () => {
 
       fireEvent.click(button);
 
-      expect(input).toHaveStyle({ border: "2px solid #ff4444" });
+      expect(input).toHaveStyle({ border: "2px solid #8b2e2eff" });
     });
   });
 
